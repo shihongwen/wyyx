@@ -1,0 +1,195 @@
+div.regist {
+  background: #EEEEEE;
+  padding: 20px 0;
+}
+div.regist > .container {
+  width: 1000px;
+}
+div.regist .spritebg {
+  display: inline-block;
+  background: url("../img/regist/sprite.png") no-repeat;
+}
+div.regist div.regist-header div.header-right {
+  font-size: 18px;
+  color: #666;
+  margin-top: 40px;
+}
+div.regist div.regist-header div.header-right > a {
+  color: #ca5252;
+  margin-left: -5px;
+}
+div.regist div.regist-header div.header-right > a:hover {
+  color: #AC4646;
+}
+div.regist div.regist-header div.m-logo {
+  width: 500px;
+  height: 80px;
+  background-position: -50px 0;
+}
+div.regist div.main {
+  margin-top: 30px;
+  padding-bottom: 100px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px #cbc9c9;
+  min-height: 300px;
+}
+div.regist div.main .m-tab {
+  width: 320px;
+  margin-left: 340px;
+  padding-top: 44px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+div.regist div.main .m-tab .left {
+  width: 160px;
+  height: 38px;
+  border: 1px solid #ccc;
+  line-height: 38px;
+  text-align: center;
+  float: left;
+}
+div.regist div.main .m-tab .select {
+  color: #fff;
+  background: #ca5252;
+  border-color: #ca5252;
+}
+div.regist div.main .m-tab .right {
+  float: right;
+  display: block;
+  width: 160px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-left: 0;
+  color: #666;
+}
+div.regist div.main div.u-input {
+  margin-top: 10px;
+}
+div.regist div.main div.u-input label.u-label {
+  float: left;
+  width: 340px;
+  text-align: right;
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 45px;
+  color: #333;
+}
+div.regist div.main div.u-input .i-inpt {
+  float: left;
+  width: 320px;
+  height: 44px;
+  margin-top: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  text-indent: 0.5em;
+  outline: 0;
+  font-weight: bold;
+}
+div.regist div.main div.u-input .act-clazz {
+  border-color: #4aafe9;
+}
+div.regist div.main div.u-input .err-clazz {
+  border-color: #fa5b5b;
+}
+div.regist div.main div.u-input .popb {
+  float: left;
+  width: 320px;
+  height: 44px;
+  margin-left: 10px;
+  margin-top: 12px;
+  line-height: 44px;
+}
+div.regist div.main div.u-input .hidden {
+  display: none;
+}
+div.regist div.main div.u-input div.err {
+  color: #fa5b5b;
+}
+div.regist div.main div.u-input i.spritebg {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+div.regist div.main div.u-input i.err {
+  background-position: -65px -102px;
+}
+div.regist div.main div.u-input i.ok {
+  background-position: -30px -102px;
+}
+div.regist div.main div.u-input i.warn {
+  width: 15px;
+  height: 15px;
+  background-position: -394px -103px;
+}
+div.regist div.main div.u-input input::-webkit-input-placeholder {
+  color: #BCBCC2;
+  font-weight: normal;
+}
+div.regist div.main div.u-input .btn-red {
+  float: left;
+  width: 322px;
+  height: 46px;
+  margin-top: 12px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 18px;
+  color: #fff;
+  background: #ca5252;
+  cursor: pointer;
+}
+div.regist div.main div.u-input .btn-red:hover {
+  background-color: #E56262;
+}
+div.regist div.main div.u-input .tip {
+  float: left;
+  width: 322px;
+  margin-top: 10px;
+  color: #b1b1b1;
+}
+div.regist div.main div.u-input .tip a {
+  color: #b1b1b1;
+}
+div.regist div.main div.u-input .tip a:hover {
+  color: #666;
+}
+div.regist div.main div.u-input .tip .m-agree {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  float: left;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 5px;
+}
+div.regist div.main div.u-input .tip .m-agree .u-agree {
+  opacity: 0;
+}
+div.regist div.main div.u-input .tip .m-agree-ok {
+  background: url("../img/regist/sprite.png") no-repeat 0 -280px;
+}
+div.regist div.main div.regFapp {
+  width: 900px;
+  height: 100px;
+  margin: 60px auto;
+}
+div.regist div.regist-footer {
+  padding-top: 30px;
+  color: #b1b1b1;
+  text-align: center;
+}
+div.regist div.regist-footer p {
+  margin-bottom: 10px;
+}
+div.regist div.regist-footer a {
+  color: #b1b1b1;
+}
+div.regist div.regist-footer a:hover {
+  color: #ED8B1D;
+}
+/*# sourceMappingURL=regist.css.map */

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/regist.css">
+</head>
+<body>
+<div class="regist">
+  <!--头部信息-->
+  <div class="regist-header container">
+    <div class="header-right rt">
+      已有账号？去
+      <a href="login.html" target="_blank">登录</a>
+    </div>
+    <a href="http://reg.163.com/" target="_blank">
+      <div class="m-logo spritebg"></div>
+    </a>
+  </div>
+  <!--主体信息-->
+  <div class="container main">
+    <div class="m-tab">
+      <div class="left select">
+        普通账号注册
+      </div>
+      <a href="https://haoma.163.com/?from=zcb" target="_blank" class="right">靓号注册</a>
+    </div>
+    <form autocomplete="off">
+      <!--账号-->
+      <div class="u-input clear">
+        <label for="inpt-account" class="u-label">账号：</label>
+        <input type="text" id="inpt-account" class="i-inpt" placeholder="网易邮箱/其他邮箱"/>
+        <div class="popb err hidden">
+          <i class="spritebg err"></i>
+          该账号已注册
+        </div>
+        <div class="popb ok hidden">
+          <i class="spritebg ok"></i>
+        </div>
+        <div class="popb warn hidden">
+          <i class="spritebg warn"></i>
+          普通帐号须由字母开头
+        </div>
+      </div>
+      <!--密码-->
+      <div class="u-input clear">
+        <label for="inpt-pw" class="u-label">密码：</label>
+        <input type="password" id="inpt-pw" class="i-inpt" placeholder="6-16位密码，区分大小写"/>
+        <div class="popb err hidden">
+          <i class="spritebg err"></i>
+          密码须由6-16个字符组成，区分大小写
+        </div>
+        <div class="popb ok hidden">
+          <i class="spritebg ok"></i>
+        </div>
+      </div>
+      <!--确认密码-->
+      <div class="u-input clear">
+        <label for="inpt-pw2" class="u-label">确认密码：</label>
+        <input type="password" id="inpt-pw2" class="i-inpt" placeholder="再次输入密码"/>
+        <div class="popb err hidden">
+          <i class="spritebg err"></i>
+          <span data-toggle="err-pw-txt">请重复输入密码/密码不一致</span>
+        </div>
+        <div class="popb ok hidden">
+          <i class="spritebg ok"></i>
+        </div>
+      </div>
+      <!--手机号-->
+      <div class="u-input clear">
+        <label for="inpt-phone" class="u-label">手机号：</label>
+        <input type="text" id="inpt-phone" class="i-inpt"
+               placeholder="11位手机号" maxlength="20"/>
+        <div class="popb err hidden">
+          <i class="spritebg err"></i>
+          <span>手机号输入有误，请重新输入</span>
+        </div>
+        <div class="popb ok hidden">
+          <i class="spritebg ok"></i>
+        </div>
+      </div>
+      <!--短信验证码-->
+      <div class="u-input clear">
+        <label for="inpt-sms" class="u-label">短信验证码：</label>
+        <input type="text" id="inpt-sms" class="i-inpt" placeholder="输入短信验证码"/>
+        <div class="popb err hidden">
+          <i class="spritebg err"></i>
+          <span>请先获取短信验证码</span>
+        </div>
+        <div class="popb ok hidden">
+          <i class="spritebg ok"></i>
+        </div>
+      </div>
+      <!--注册按钮-->
+      <div class="u-input clear">
+        <label class="u-label"></label>
+        <div class="btn-red">注&nbsp;&nbsp;册</div>
+      </div>
+      <!--多选框-->
+      <div class="u-input clear">
+        <label class="u-label"></label>
+        <span class="tip">
+            <span class="m-agree">
+              <input type="checkbox" class="u-agree"/>
+            </span>
+            <span>用户勾选即代表同意</span>
+            <a target="_blank" href="http://reg.163.com/agreement.shtml">《网易邮箱服务条款》</a>
+            和
+            <a target="_blank" href="http://reg.163.com/agreement_game.shtml">《网易隐私政策》</a>
+          </span>
+      </div>
+    </form>
+    <div class="regFapp">
+      <a href="https://id.163.com/gj/?from=webzj_zc" target="_blank">
+        <img src="img/regist/regFapp_xc_small.png">
+      </a>
+    </div>
+  </div>
+  <!--尾部信息-->
+  <div class="regist-footer">
+    <p>
+      <a href="http://corp.163.com/eng/about/overview.html"
+         target="_blank">About NetEase</a>
+      -
+      <a href="http://gb.corp.163.com/gb/about/overview.html"
+         target="_blank">公司简介</a>
+      -
+      <a href="http://gb.corp.163.com/gb/contactus.html"
+         target="_blank">联系方式</a>
+      -
+      <a href="http://reg.163.com/help/help_oauth2.html?v=20141215"
+         target="_blank">OAuth2.0认证</a>
+      -
+      <a href="http://corp.163.com/gb/job/job.html"
+         target="_blank">招聘信息</a>
+      -
+      <a href="http://help.163.com/" target="_blank">客户服务</a>
+      -
+      <a href="http://gb.corp.163.com/gb/legal.html"
+         target="_blank">相关法律</a>
+      -
+      <a href="http://emarketing.biz.163.com/" target="_blank">网络营销</a>
+    </p>
+    <p>网易公司版权所有 ©1997-2019</p>
+  </div>
+</div>
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/regist.js"></script>
+</body>
+</html>

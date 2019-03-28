@@ -1,0 +1,262 @@
+div.fixedtool{
+  width:72px;
+  text-align: center;
+  background:#fff;
+  margin:0 auto;
+
+  //position:absolute;
+  //right:0;
+  &>a{
+    display:block;
+  }
+  i.fixedtool-icon{
+    display:block;
+    background:url("../img/fixedtool/fixedtool-icon.png") no-repeat;
+  }
+  //分割线
+  p.cut-off{
+    margin:10px 5px;
+    height:1px;
+    background:#DCDCDC;
+  }
+  //新人有礼
+  a.fixedtool-newuser{
+    padding-top:15px;
+    i.newuser-icon{
+      width:28px;
+      height:29px;
+      background-position:0 -297px;
+      margin:0 auto;
+    }
+    p.newuser-text{
+      font-size:14px;
+      color:#666;
+      margin-top:10px;
+    }
+  }
+  a.fixedtool-newuser:hover{
+    i.newuser-icon{
+      background-position:0 -258px;
+    }
+    p.newuser-text{
+      color:#B39F78;
+    }
+  }
+  //扫码有礼
+  a.fixedtool-download{
+    width:72px;
+    text-align: center;
+    margin:5px 0;
+    img{
+      width:72px;
+    }
+    p.download-text1{
+      color:#666;
+    }
+    p.download-text2{
+      color:#BC3B3B;
+    }
+  }
+  //订阅电子刊
+  div.fixedtool-subscribe{
+    text-align: center;
+    cursor: pointer;
+    position:relative;
+    i.subscribe-icon{
+      width:26px;
+      height:26px;
+      background-position:0 -425px;
+      margin:0 auto;
+    }
+    p.subscribe-text{
+      color:#666;
+      font-size:14px;
+      margin-top: 10px;
+    }
+    //弹出框
+    div.dialog{
+      display:none;
+      width:390px;
+      position:absolute;
+      left:-389px;
+      top:-70px;
+      div.subscribe-dialog{
+        width:370px;
+        height:220px;
+        background:#fff;
+        border:1px solid #EAEAEA;
+        box-shadow: 0 2px 4px 0 #7f7f7f;
+        cursor:default;
+        position:relative;
+        div.dialog-title{
+          height:70px;
+          width:370px;
+          line-height:70px;
+          color:#fff;
+          font-size:26px;
+          background:url("../img/fixedtool/86fe9b8317068538cda05d96768a6e17.png");
+          margin-left:-1px;
+          margin-top:-1px;
+        }
+        i.close{
+          position:absolute;
+          top:5px;
+          right:5px;
+          width:11px;
+          height:10px;
+          background:url("../img/fixedtool/close.png") no-repeat 0 -40px;
+          cursor:pointer;
+        }
+        div.dialog-body{
+          text-align:center;
+          padding:20px 0;
+          p.dialog-desc{
+            color:#999;
+            font-size:14px;
+          }
+          div.subscribe-dialog-input{
+            display:inline-block;
+            margin:0 auto;
+            margin-top:10px;
+            position: relative;
+            input.dialog-input{
+              float:left;
+              width:206px;
+              height:34px;
+              font-size:14px;
+              background:#f8f8f8;
+              border:1px solid #ddd;
+              border-right:0;
+              outline:0;
+              padding-left:10px;
+            }
+            i.input-close{
+              position:absolute;
+              top:10px;
+              left:180px;
+              width:14px;
+              height:14px;
+              background:url("../img/fixedtool/fixedtool-icon.png") no-repeat 0 0;
+              cursor:pointer;
+              display:none;
+            }
+            a.input-btn{
+              float:left;
+              display:inline-block;
+              width:80px;
+              height:34px;
+              background:#B4A078;
+              font-size:14px;
+              color:#fff;
+              line-height:34px;
+            }
+          }
+        }
+        div.dialog-foot{
+          text-align: center;
+          display:inline-block;
+          margin:0 auto;
+          i.privilege-icon{
+            display:inline-block;
+            width:14px;
+            height:14px;
+            background:url("../img/fixedtool/fixedtool-icon.png") no-repeat;
+            vertical-align: middle;
+          }
+          div.foot-privilege{
+            float:left;
+            margin:0 15px;
+            span.privilege-text{
+              color:#B4A078;
+              font-size:14px;
+            }
+            i.icon-disconts{
+              background-position: 0 -461px;
+            }
+            i.icon-priority{
+              background-position: 0 -24px;
+            }
+            i.icon-goods{
+              background-position: 0 -365px;
+            }
+          }
+        }
+        i.rightArrow{
+          position:absolute;
+          top:100px;
+          right:-10px;
+          width:10px;
+          height:19px;
+          background:url("../img/fixedtool/fixedtool-icon.png") no-repeat 0 -336px;
+        }
+      }
+    }
+
+  }
+  div.fixedtool-subscribe:hover{
+    i.subscribe-icon{
+      background-position:0 -389px;
+    }
+    p.subscribe-text{
+      color:#B6A37D;
+    }
+  }
+  //在线客服
+  div.fixedtool-service{
+    margin-top:20px;
+    text-align: center;
+    cursor:pointer;
+    i.service-icon{
+      width:32px;
+      height:30px;
+      background-position:0 -87px;
+      margin:0 auto;
+    }
+    p.service-text{
+      color:#666;
+      font-size:14px;
+      margin-top: 10px;
+    }
+  }
+  div.fixedtool-service:hover{
+    i.service-icon{
+      background-position:0 -46px;
+    }
+    p.service-text{
+      color:#B39F78;
+    }
+  }
+  //回顶部
+  div.goTop{
+    display:none;
+    cursor:pointer;
+    i.goTop-icon{
+      width:24px;
+      height:15px;
+      background-position:0 -233px;
+      margin:0 auto;
+    }
+    p.goTop-text{
+      font-size:14px;
+      color:#666;
+      margin-top:8px;
+    }
+  }
+  div.goTop:hover{
+    i.goTop-icon{
+      background-position:0 -208px;
+    }
+    p.goTop-text{
+      color:#B39F78;
+    }
+  }
+}
+//固定工具栏
+#fixedtool{
+  width:72px;
+  position:fixed;
+  z-index:100;
+  right:0;
+  top:60px;
+  display:none;
+}

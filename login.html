@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/header-hang.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/fixedtool.css">
+</head>
+<body>
+<!--固定的头部信息-->
+<div id="header-hang">
+  <img src="img/loading.gif" alt="加载中...">
+</div>
+<!--头部信息-->
+<header id="header">
+  <img src="img/loading.gif" alt="加载中...">
+</header>
+<div class="main">
+  <div class="login-box">
+    <div class="box-header clear">
+      <span class="header-lf lf box-checked" data-toggle="login-phone">手机号登录</span>
+      <i class="box-pipe lf"></i>
+      <span class="header-rt lf" data-toggle="login-email">邮箱登录</span>
+    </div>
+    <!--手机登录信息-->
+    <div class="login-content login-phone">
+      <div class="input-box">
+        <i class="phone-icon"></i>
+        <i class="inpt-pipe"></i>
+        <input type="text" placeholder="请输入手机号" class="inpt-account"/>
+      </div>
+      <div class="input-box">
+        <i class="pwd-icon"></i>
+        <i class="inpt-pipe"></i>
+        <input type="text" placeholder="请输入密码" class="inpt-pwd"/>
+      </div>
+      <div class="box-btn">登&nbsp;&nbsp;录</div>
+      <div class="box-footer">
+        <div class="footer-content clear">
+          <div class="links lf">
+            <a href="#" class="wx"></a>
+            <a href="#" class="qq"></a>
+            <a href="#" class="wb"></a>
+            <a href="#" class="wy"></a>
+          </div>
+          <a href="#" class="login-link regist-phone">手机快捷注册</a>
+          <a href="#" class="login-link">遇到问题？</a>
+        </div>
+      </div>
+    </div>
+    <!--邮箱登录信息-->
+    <div class="login-content login-email">
+      <div class="input-box">
+        <i class="email-icon"></i>
+        <i class="inpt-pipe"></i>
+        <input type="text" placeholder="邮箱账号" class="inpt-account"/>
+      </div>
+      <div class="input-box">
+        <i class="pwd-icon"></i>
+        <i class="inpt-pipe"></i>
+        <input type="text" placeholder="请输入密码" class="inpt-pwd"/>
+      </div>
+      <div class="box-btn">登&nbsp;&nbsp;录</div>
+      <div class="box-footer">
+        <div class="footer-content clear">
+          <div class="links lf">
+            <a href="#" class="wx"></a>
+            <a href="#" class="qq"></a>
+            <a href="#" class="wb"></a>
+            <a href="#" class="wy"></a>
+          </div>
+          <a href="#" class="login-link regist-email">邮箱注册</a>
+          <a href="#" class="login-link">忘记密码？</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!--尾部信息-->
+<div id="footer"></div>
+<!--固定的边侧工具栏-->
+<div id="fixedtool"></div>
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/header.js"></script>
+<script src="js/header-hang.js"></script>
+<script src="js/login.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/fixedtool.js"></script>
+</body>
+</html>

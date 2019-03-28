@@ -1,0 +1,172 @@
+div.footer {
+  width: 100%;
+  border-top: 1px solid #E7E7E7;
+  margin-top: 50px;
+}
+div.footer div.footer-upper {
+  padding: 50px 0 30px 0;
+  background: #fff;
+}
+div.footer div.footer-upper div.container > div {
+  width: 363px;
+  height: 204px;
+  text-align: center;
+}
+div.footer div.footer-upper div.container > div div.upper-title {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+div.footer div.footer-upper div.container div.upper-left {
+  position: relative;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li {
+  float: left;
+  width: 80px;
+  height: 100px;
+  border: 1px solid #E7E7E7;
+  text-align: center;
+  position: relative;
+  margin-left: 30px;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li > a {
+  display: block;
+  width: 80px;
+  height: 100px;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li > a i.left-icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 30px;
+  height: 26px;
+  background: url("../img/footer/footer.png") no-repeat;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li > a i.service {
+  background-position: 0 -290px;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li > a i.left-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-style: normal;
+  font-size: 14px;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li > a i.feedback {
+  background-position: 0 -97px;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li > a:hover i.service {
+  background-position: 0 -254px;
+}
+div.footer div.footer-upper div.container div.upper-left ul.left-links li > a:hover i.feedback {
+  background-position: 0 -60px;
+}
+div.footer div.footer-upper div.container div.upper-mid {
+  border: 1px solid #E8E8E8;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0 32px;
+}
+div.footer div.footer-upper div.container div.upper-mid div.mid-text {
+  text-align: left;
+  color: #333;
+  line-height: 23px;
+  font-size: 13px;
+}
+div.footer div.footer-upper div.container div.upper-mid div.mid-aboutUs {
+  text-align: left;
+  margin-top: 20px;
+}
+div.footer div.footer-upper div.container div.upper-mid div.mid-aboutUs span.aboutUs-text {
+  color: #333;
+  font-size: 14px;
+}
+div.footer div.footer-upper div.container div.upper-mid div.mid-aboutUs i.aboutUs-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: url("../img/footer/footer.png") no-repeat;
+}
+div.footer div.footer-upper div.container div.upper-mid div.mid-aboutUs i.aboutUs-lazy {
+  background-position: 0 -470px;
+}
+div.footer div.footer-upper div.container div.upper-mid div.mid-aboutUs i.aboutUs-wx {
+  background-position: 0 -428px;
+}
+div.footer div.footer-upper div.container div.upper-mid div.mid-aboutUs i.aboutUs-wb {
+  background-position: 0 -326px;
+}
+div.footer div.footer-upper div.container div.upper-right div.QR img {
+  width: 104px;
+  height: 104px;
+}
+div.footer div.footer-upper div.container div.upper-right > p {
+  color: #b4a078;
+  margin-top: 10px;
+}
+div.footer div.footer-lower {
+  background: #404040;
+}
+div.footer div.footer-lower ul.lower-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid #4E4E4E;
+}
+div.footer div.footer-lower ul.lower-icons li {
+  color: #fff;
+  font-size: 18px;
+  line-height: 51px;
+}
+div.footer div.footer-lower ul.lower-icons li i {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url("../img/footer/footer.png") no-repeat;
+  vertical-align: top;
+}
+div.footer div.footer-lower ul.lower-icons li i.wy {
+  background-position: 0 -134px;
+}
+div.footer div.footer-lower ul.lower-icons li i.worry-free {
+  background-position: 0 -368px;
+}
+div.footer div.footer-lower ul.lower-icons li i.postage-free {
+  background-position: 0 0px;
+}
+div.footer div.footer-lower ul.lower-icons li i.warranty {
+  background-position: 0 -194px;
+}
+div.footer div.footer-lower ul.lower-icons li > span {
+  display: inline-block;
+}
+div.footer div.footer-lower div.lower-links {
+  padding: 30px 0;
+  color: #989898;
+  text-align: center;
+}
+div.footer div.footer-lower div.lower-links a {
+  color: #989898;
+}
+div.footer div.footer-lower div.lower-links div.link-list i.pipe {
+  font-style: normal;
+  margin: 0 10px;
+}
+div.footer div.footer-lower div.lower-links p.lower-copyright {
+  margin: 10px 0;
+}
+div.footer div.footer-lower div.lower-links p.lower-copyright a {
+  margin: 0 10px;
+}
+div.footer div.footer-lower div.lower-links p.lower-police img {
+  width: 23px;
+  height: 25px;
+}
+/*# sourceMappingURL=footer.css.map */
