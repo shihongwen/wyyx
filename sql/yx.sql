@@ -1,9 +1,9 @@
-DROP DATABASE IF EXISTS yx;
-CREATE DATABASE yx CHARSET utf8;
+--DROP DATABASE IF EXISTS yx;
+--CREATE DATABASE yx CHARSET utf8;
 
 -- 轮播图表
-DROP TABLE IF EXISTS yx.yx_index_carousel;
-CREATE TABLE yx.yx_index_carousel (
+DROP TABLE IF EXISTS  yx_index_carousel;
+CREATE TABLE  yx_index_carousel (
   cid INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id PK',
   img VARCHAR(128) NOT NULL COMMENT '图片地址 NN',
   title VARCHAR(32) NOT NULL COMMENT '图片名称 NN',
@@ -12,8 +12,8 @@ CREATE TABLE yx.yx_index_carousel (
 )COMMENT '轮播图表';
 
 -- 首页推荐商品表
-DROP TABLE IF EXISTS yx.yx_index_recommend_product;
-CREATE TABLE yx.yx_index_recommend_product(
+DROP TABLE IF EXISTS  yx_index_recommend_product;
+CREATE TABLE  yx_index_recommend_product(
   rid INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id PK',
   name VARCHAR(32) NOT NULL COMMENT '产品名字 NN',
   saleprice DECIMAL(10,2) NOT NULL COMMENT '产品售价 NN',
@@ -27,8 +27,8 @@ CREATE TABLE yx.yx_index_recommend_product(
 ) COMMENT '首页推荐商品表';
 
 -- 产品表
-DROP TABLE IF EXISTS yx.yx_product;
-CREATE TABLE yx.yx_product(
+DROP TABLE IF EXISTS  yx_product;
+CREATE TABLE  yx_product(
   pid INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id PK',
   title VARCHAR (128) NOT NULL COMMENT '产品名 NN',
   subtitle VARCHAR (128) NOT NULL COMMENT '产品子名称 NN',
@@ -43,8 +43,8 @@ CREATE TABLE yx.yx_product(
 ) COMMENT '产品表';
 
 -- 产品图片表
-DROP TABLE IF EXISTS yx.yx_product_pic;
-CREATE TABLE yx.yx_product_pic(
+DROP TABLE IF EXISTS  yx_product_pic;
+CREATE TABLE  yx_product_pic(
   pic_id INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id PK',
   pid INT NOT NULL COMMENT '产品id NN',
   xs_id INT NOT NULL COMMENT '超小图片id NN',
@@ -54,8 +54,8 @@ CREATE TABLE yx.yx_product_pic(
 ) COMMENT '产品图片表';
 
 -- 产品超小图片表
-DROP TABLE IF EXISTS yx.yx_product_xs_pic;
-CREATE TABLE yx.yx_product_xs_pic(
+DROP TABLE IF EXISTS  yx_product_xs_pic;
+CREATE TABLE  yx_product_xs_pic(
   xs_id INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id PK',
   pid INT NOT NULL COMMENT '产品id NN',
   xs VARCHAR (128) NOT NULL COMMENT '超小图片 NN'
